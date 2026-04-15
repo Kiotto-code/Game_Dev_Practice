@@ -1,0 +1,11 @@
+{
+	"InstallScripts" : 
+	[
+		"C:/Users/Chan/Desktop/Larian/Game/out/build/x64-Debug/cmake_install.cmake",
+		"C:/Users/Chan/Desktop/Larian/Game/out/build/x64-Debug/external/raylib/cmake_install.cmake",
+		"C:/Users/Chan/Desktop/Larian/Game/out/build/x64-Debug/external/raylib/raylib/cmake_install.cmake",
+		"C:/Users/Chan/Desktop/Larian/Game/out/build/x64-Debug/external/raylib/raylib/external/glfw/cmake_install.cmake",
+		"C:/Users/Chan/Desktop/Larian/Game/out/build/x64-Debug/external/raylib/raylib/external/glfw/src/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

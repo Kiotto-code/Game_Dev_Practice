@@ -1,0 +1,19 @@
+cmake_minimum_required(VERSION 3.15)
+project(RaylibEnttGame)
+
+# Set C++ standard (EnTT requires at least C++17)
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+# 1. Add Raylib
+add_subdirectory(external/raylib)
+
+# 2. Add EnTT (Header-only)
+add_subdirectory(external/entt)
+
+# 3. Create Executable
+add_executable(${PROJECT_NAME} main.cpp)
+
+# 4. Link Libraries
+# Note: EnTT is an interface library since it's header-only
+target_link_libraries(${PROJECT_NAME} PRIVATE raylib EnTT::EnTT)
